@@ -1,0 +1,15 @@
+interface:
+  display_name: Source Data Integrity Check
+  short_description: Offline numerical Source Data review with English/Chinese reports
+  default_prompt: Audit this Source Data spreadsheet and produce an English HTML report
+    with highlighted Excel cells and a manual review checklist. Use Chinese only if
+    I explicitly request it.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
